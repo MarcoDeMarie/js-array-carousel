@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  height: 500px;
+  width: 700px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.container-img{
+  display: flex;
+  justify-content: center;
+}
+
+.container-img img{
+  position: absolute;
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
+
+
+.buttons{
+  display: flex;
+  justify-content: space-between;
+}
+
+.show{
+  display: block;
+}
+
+.hide{
+  display: none;
+}
+
+
